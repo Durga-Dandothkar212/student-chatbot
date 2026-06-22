@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Student Assistant Bot</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <header>
+        <h1>🎓 Smart Student Assistant Bot</h1>
+        <p>Your Personal Learning Companion</p>
+    </header>
+
+    <div class="chat-container">
+        <div id="chatbox">
+            <div class="bot-message">
+                Hello! I am your Student Assistant Bot. Ask me about HTML, CSS, JavaScript, exams, programming, AI, or general questions.
+            </div>
+        </div>
+
+        <div class="input-section">
+            <input
+                type="text"
+                id="userInput"
+                placeholder="Type your question..."
+                onkeypress="handleKey(event)"
+            >
+            <button onclick="sendMessage()">Send</button>
+        </div>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
